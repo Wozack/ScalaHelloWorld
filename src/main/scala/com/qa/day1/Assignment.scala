@@ -1,8 +1,11 @@
 package com.qa
 
-package object day1 {
+//Create a method that accepts a string as a parameter, and then outputs that string.
+
+object Assignment {
+
   def main(args: Array[String]): Unit = {
-    stringPrint("AAAAAAAAAAAAAAAAAAAAAAAAAAAA")
+    print(stringPrint("AAAAAAAAAAAAAAAAAAAAAAAAAAAA"))
   }
   def stringPrint(a:String): String ={
     a
