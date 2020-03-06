@@ -7,9 +7,9 @@ object NumWorker {
   }
 
   def numWorker(A: Int, B: Int, C: Int): Int = {
-    var list = List(A, B, C)
+    val list = List(A, B, C)
 
-    var newList = list.sorted
+    val newList = list.sorted
 
     (newList(1) + newList(2)) * newList(0)
 
