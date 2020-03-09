@@ -1,6 +1,6 @@
 package com.qa.day4
 
-
+import java.util.TimeZone.getAvailableIDs
 
 object Functional1{
 
